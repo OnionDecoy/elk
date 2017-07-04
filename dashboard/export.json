@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "OnionDecoy",
+    "_type": "dashboard",
+    "_source": {
+      "title": "OnionDecoy",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Cowrie-Event-Counter\",\"panelIndex\":1,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Glastopf-Event-Counter\",\"panelIndex\":4,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":9,\"id\":\"Suricata-Event-Counter\",\"panelIndex\":6,\"row\":1,\"size_x\":4,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Honeypot-Events-Histogram\",\"panelIndex\":7,\"row\":3,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"id\":\"Honeypot-Destination-Ports-Histogram\",\"type\":\"visualization\",\"panelIndex\":8,\"size_x\":12,\"size_y\":3,\"col\":1,\"row\":6},{\"id\":\"P0f-OS-Top-10\",\"type\":\"visualization\",\"panelIndex\":9,\"size_x\":4,\"size_y\":3,\"col\":1,\"row\":9},{\"id\":\"Honeypot-Events\",\"type\":\"visualization\",\"panelIndex\":10,\"size_x\":4,\"size_y\":3,\"col\":5,\"row\":9},{\"id\":\"Honeypot-Countries-Top-10\",\"type\":\"visualization\",\"panelIndex\":11,\"size_x\":4,\"size_y\":3,\"col\":9,\"row\":9},{\"id\":\"Cowrie-Username-Tagcloud\",\"type\":\"visualization\",\"panelIndex\":12,\"size_x\":6,\"size_y\":3,\"col\":1,\"row\":12},{\"id\":\"Cowrie-Password-Tagcloud\",\"type\":\"visualization\",\"panelIndex\":13,\"size_x\":6,\"size_y\":3,\"col\":7,\"row\":12},{\"id\":\"Honeypot-Events-by-Country-Histogram\",\"type\":\"visualization\",\"panelIndex\":16,\"size_x\":12,\"size_y\":3,\"col\":1,\"row\":15},{\"id\":\"Honeypot-Map\",\"type\":\"visualization\",\"panelIndex\":17,\"size_x\":12,\"size_y\":7,\"col\":1,\"row\":21},{\"id\":\"Honeypot-by-Country-and-Port\",\"type\":\"visualization\",\"panelIndex\":18,\"size_x\":12,\"size_y\":3,\"col\":1,\"row\":28},{\"id\":\"Honeypot-Source-IP-Top-10\",\"type\":\"visualization\",\"panelIndex\":19,\"size_x\":3,\"size_y\":5,\"col\":1,\"row\":31},{\"id\":\"Honeypot-ASN-Top-10\",\"type\":\"visualization\",\"panelIndex\":20,\"size_x\":4,\"size_y\":5,\"col\":4,\"row\":31},{\"id\":\"Suricata-Alert-Signature-Top-10\",\"type\":\"visualization\",\"panelIndex\":21,\"size_x\":5,\"size_y\":5,\"col\":8,\"row\":31},{\"id\":\"Honeypot-Logs\",\"type\":\"search\",\"panelIndex\":22,\"size_x\":12,\"size_y\":7,\"col\":1,\"row\":36,\"columns\":[\"_source\"],\"sort\":[\"@timestamp\",\"desc\"]},{\"id\":\"Suricata-Alert-Category-Histogram-Top-10\",\"type\":\"visualization\",\"panelIndex\":23,\"size_x\":12,\"size_y\":3,\"col\":1,\"row\":18}]",
+      "optionsJSON": "{\"darkTheme\":true}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
